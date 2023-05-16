@@ -1,8 +1,8 @@
 # Heart-Failure-Predictions-New
 **1 Introduction:**
 
-Heart Disease are the leading cause of death globally, accounting for 1% of all deaths , with an estimate 17.7 million lives lost each year beacuse of heart disease. 
-Cardiovascular Disease could be from heart attacks and strokes and could happen for prematurly people under 70. Since the heart dfailur is commen cardivasdul deiase, I try to build a model that predict heart faiulure which help to predict a potenital heart disease.
+Heart Disease is the leading cause of death globally, accounting for 31% of all deaths, with an estimated 17.7 million lives lost each year because of heart disease. 
+Cardiovascular Disease could be from heart attacks and strokes and could happen prematurely in people under 70. Since heart failure is a common cardivasdul disease, I try to build a model that predicts heart failure which helps to predict potential heart disease.
 
 
 **1.2 Data:**
@@ -54,6 +54,19 @@ We used Decisin tree wehich is a tree basd model that split the data base on the
 **4.4 K_Nearste neightbors**
 
 We udes the k-Nearst Neightbos model, which is a non param,ertiv mthod that find thge k nearst neighbos in the feature space, we could analyzed the varibel oklot and that founf the ST_slop for the chest paiin Type amnd exercsei anginea were the most important feature for this model as well.
+
+
+
+**4.5 Grouping**
+Our Grouping clustering model show differtnt vale into variable rangeds, Unfrotutly this method was not accurate becuse of the low cholorsterl levels and miussing information
+
+Based on the results, it could be conclude that the cholestrel variable may not jave signigficanr impn nt of the prediction of heart disease in this data, althought we initially considede deleting observation with zero choloersotl valuies due to the imporantace of cholostrerl 
+
+
+**Conclusion**
+
+Our studfy shows shows dfiffer4ent regression model to predict heart failure. ST_Slop, ChestPainType, and oldpeak were conistently the most noticdble feature, The logisitc regression and k-Nearest neighborss are the best perfrmioub moide accornidn to our scores. Future work in this area need collectong more accurate and compelet information about cholestrol level, additionaly, more research need more interaction betweeen choesterl level and other varible in predicting heart diease.
+
 
 
 
