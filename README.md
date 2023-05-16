@@ -19,5 +19,21 @@ Pics
 
 **2.3 Numerical Varibles**
 
+correlation between numerical varible are check and conifrmed there no strong , The box plot of resting blood lplease show that there is 1 obsetvation with resting blood pressure equal to 0 and we removed this observation, the bos plot of chlosteol alos indivcate there some 0 values in the column. scinede it is wudel knowe and a lot of many people with 0 cholosterol level have hear diseease, the it tured out 152 of 172 of them have heart dise3as, therfore we got lots of missing zero in cholerteol vaible.
+
+
+
+**3.1 Modeling**
+
+I selected four differnt kind of machin leanign that help u sto figure out and choosuibng and validation the best model for prediction, could be complecity, interpretabliy 
+and avalibile data nad our uise caarse requirees a clssification model with higth acfcurvaty and interpretablity,
+
+
+I chose to use five dofferent model for out progect inclihding logistiv rtegression, random forest, decisionn fores, decision treem, and KNN each with their own set of advantage and disadvantage whith atre outline in a table for comparisino.
+
+
+
+
+
 
  
