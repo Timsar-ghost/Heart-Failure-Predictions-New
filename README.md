@@ -8,7 +8,16 @@ Cardiovascular Disease could be from heart attacks and strokes and could happen 
 **1.2 Data:**
 
 Our data is from Kaggle and It hast 918 observation and 12 varible including the response varible named HeartDisease with a value of 0 (noraml) or (Heart Diseas).
-To explain some of the important variable, could be old peak and ST_slop are the feature of excerise electrocardiogram(ECG). Oldpeak is St depression include by excrise relative to rest and low eadinfg can be sing of resduce blood flow to the heart muscle. St slop refers to the disrection adn change in the St segment ofd ECG. The upslcing ST segment may be a normal fininf in younger individiuals who are physiocally active while a downslopingh St can be indicative of cornory arter diseas or other cardiac conditioin .
+To explain some of the important variable, could be old peak and ST_slop are the feature of excerise electrocardiogram(ECG). Oldpeak is St depression include by excrise relative to rest and low eadinfg can be sing of resduce blood flow to the heart muscle. St slop refers to the disrection adn change in the St segment ofd ECG. The upslcing ST segment may be a normal fininf in younger individiuals who are physiocally active while a downslopingh St can be indicative of cornory arter diseas or other cardiac conditioin.
+
+**2.2 Categorical varibles**
+
+We first explored the categorical varibale, there are much more man than female  in the data in general and also more mna in the heart diease. 
+
+
+Pics 
+
+**2.3 Numerical Varibles**
 
 
  
