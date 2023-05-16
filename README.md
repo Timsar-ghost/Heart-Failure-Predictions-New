@@ -39,6 +39,22 @@ Moreover, we had a big chanfe to iluustrea teh regression model with added signi
 
 
 
+**4.2 Random Forest**
+
+I used Random Forest which is an enesemble learning method that combine multonle decsioin trees, I used the random forest with significant feature such as ST_slop, ChestPainType, and oldpeak, We got differen accuracy for AUC 
+
+
+
+**4.3 Decision Tree**
+
+We used Decisin tree wehich is a tree basd model that split the data base on the most information feature, From the secision tree plot we found that ST_slop and ChestPainType were the top two feature for this model
+
+
+
+**4.4 K_Nearste neightbors*
+
+We udes the k-Nearst Neightbos model, which is a non param,ertiv mthod that find thge k nearst neighbos in the feature space, we could analyzed the varibel oklot and that founf the ST_slop for the chest paiin Type amnd exercsei anginea were the most important feature for this model as well.
+
 
 
 
