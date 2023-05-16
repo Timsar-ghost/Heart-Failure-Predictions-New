@@ -51,9 +51,11 @@ We used Decisin tree wehich is a tree basd model that split the data base on the
 
 
 
-**4.4 K_Nearste neightbors*
+**4.4 K_Nearste neightbors**
 
 We udes the k-Nearst Neightbos model, which is a non param,ertiv mthod that find thge k nearst neighbos in the feature space, we could analyzed the varibel oklot and that founf the ST_slop for the chest paiin Type amnd exercsei anginea were the most important feature for this model as well.
+
+
 
 
 
