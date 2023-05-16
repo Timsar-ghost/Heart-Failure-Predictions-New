@@ -1,4 +1,6 @@
 # Heart-Failure-Predictions-New
+
+
 **1 Introduction:**
 
 Heart Disease is the leading cause of death globally, accounting for 31% of all deaths, with an estimated 17.7 million lives lost each year because of heart disease. 
@@ -7,65 +9,58 @@ Cardiovascular Disease could be from heart attacks and strokes and could happen 
 
 **1.2 Data:**
 
-Our data is from Kaggle and It hast 918 observation and 12 varible including the response varible named HeartDisease with a value of 0 (noraml) or (Heart Diseas).
-To explain some of the important variable, could be old peak and ST_slop are the feature of excerise electrocardiogram(ECG). Oldpeak is St depression include by excrise relative to rest and low eadinfg can be sing of resduce blood flow to the heart muscle. St slop refers to the disrection adn change in the St segment ofd ECG. The upslcing ST segment may be a normal fininf in younger individiuals who are physiocally active while a downslopingh St can be indicative of cornory arter diseas or other cardiac conditioin.
+Our data is from Kaggle and It has 918 observations and 12 variables including the response variable named HeartDisease with a value of 0 (normal) or (Heart disease). To explain some of the important variables, could be old peak and ST_slop the feature of exercise electrocardiogram(ECG). The old peak is St depression include by exercise relative to rest and low reading can be a sign of reduced blood flow to the heart muscle. St slop refers to the direction and changes in the St segment of ECG. The upsloping ST segment may be a normal finding in younger individuals who are physically active while a downsloping St can be indicative of coronary artery disease or other cardiac conditions.
+
 
 **2.2 Categorical varibles**
 
-We first explored the categorical varibale, there are much more man than female  in the data in general and also more mna in the heart diease. 
+We first explored the categorical variable, there are much more men than females diagnosed with heart disease  based on our data
 
 
 Pics 
 
 **2.3 Numerical Varibles**
 
-correlation between numerical varible are check and conifrmed there no strong , The box plot of resting blood lplease show that there is 1 obsetvation with resting blood pressure equal to 0 and we removed this observation, the bos plot of chlosteol alos indivcate there some 0 values in the column. scinede it is wudel knowe and a lot of many people with 0 cholosterol level have hear diseease, the it tured out 152 of 172 of them have heart dise3as, therfore we got lots of missing zero in cholerteol vaible.
-
+Correlation between numerical variables is checked and confirmed there is no strong, The box plot of resting blood shows that there is 1 observation with resting blood pressure equal to 0 and we removed this observation, the box plot of cholesterol also indicates there are some 0 values in the column. since it has lots of zero values in our model, we decide d drop them off to not have data leakage, therefore,  it becomes 152 of 172 of them have heart disease.
 
 
 **3.1 Modeling**
 
-I selected four differnt kind of machin leanign that help u sto figure out and choosuibng and validation the best model for prediction, could be complecity, interpretabliy 
-and avalibile data nad our uise caarse requirees a clssification model with higth acfcurvaty and interpretablity,
+I selected four different kinds of machine learning that help us to figure out to choose a validation for the best model to predict. We approached for classification model method to get high accuracy.
 
-
-I chose to use five dofferent model for out progect inclihding logistiv rtegression, random forest, decisionn fores, decision treem, and KNN each with their own set of advantage and disadvantage whith atre outline in a table for comparisino.
+I chose to use five different models for our project including logistic regression, random forest, decision forces, decision trees, and KNN each with its own set of advantages and disadvantages which are outlined in a table for comparison.
 
 **4.1 Logestic Regression**
 
-We applierd a full additive logestic model with all explantory varible, below is the summry, confuision m,ateric and ROC curve of the simple adfitive model.
-Moreover, we had a big chanfe to iluustrea teh regression model with added significatn factor and 2 way interaction evalued on testing using confusion matrix and ROC curve.
-
-
+We applied a full additive logistic model with all explanatory variables, below is the summary, confusion matrix, and ROC curve of the simple additive model.
+Moreover, we had a big change to illustrate the regression model with added significant factor and 2-way interaction evaluated on testing using confusion matrix and ROC curve.
 
 
 **4.2 Random Forest**
 
-I used Random Forest which is an enesemble learning method that combine multonle decsioin trees, I used the random forest with significant feature such as ST_slop, ChestPainType, and oldpeak, We got differen accuracy for AUC 
-
+I used Random Forest which is an ensemble learning method that combines multiple decision trees, I used the random forest with significant features such as ST_slop, ChestPainType, and old peak, We got different accuracy for AUC 
 
 
 **4.3 Decision Tree**
 
-We used Decisin tree wehich is a tree basd model that split the data base on the most information feature, From the secision tree plot we found that ST_slop and ChestPainType were the top two feature for this model
+We used a Decision tree which is a tree-based model that split the database on the most informative feature, From the decision tree plot we found that ST_slop and ChestPainType were the top two features for this model
 
 
 
 **4.4 K_Nearste neightbors**
 
-We udes the k-Nearst Neightbos model, which is a non param,ertiv mthod that find thge k nearst neighbos in the feature space, we could analyzed the varibel oklot and that founf the ST_slop for the chest paiin Type amnd exercsei anginea were the most important feature for this model as well.
-
+We used the k-Nearst Neightbos model, which is an imperative method that finds the k-nearest neighbors in the feature space. We analyzed the variable importance plot and found that ST_Slope, ChestPainType, and ExerciseAngina were the most important features of this model as well.
 
 
 **4.5 Grouping**
-Our Grouping clustering model show differtnt vale into variable rangeds, Unfrotutly this method was not accurate becuse of the low cholorsterl levels and miussing information
+Our Grouping clustering model shows different values in variable ranges, Unfrotutly this method was not accurate because the low cholesterol levels have missing information
 
-Based on the results, it could be conclude that the cholestrel variable may not jave signigficanr impn nt of the prediction of heart disease in this data, althought we initially considede deleting observation with zero choloersotl valuies due to the imporantace of cholostrerl 
-
+Based on the results, it could be concluded that the cholesterol variable may not have a significant impact nt of the prediction of heart disease in this data, although we initially considered deleting observations with zero choloersotl values due to the importance of cholesterol 
 
 **Conclusion**
 
-Our studfy shows shows dfiffer4ent regression model to predict heart failure. ST_Slop, ChestPainType, and oldpeak were conistently the most noticdble feature, The logisitc regression and k-Nearest neighborss are the best perfrmioub moide accornidn to our scores. Future work in this area need collectong more accurate and compelet information about cholestrol level, additionaly, more research need more interaction betweeen choesterl level and other varible in predicting heart diease.
+Our study shows a different regression model to predict heart failure. ST_Slop, ChestPainType, and old peak were consistently the most noticeable feature, The logistic regression and k-Nearest neighbors are the best perfidious made according to our scores. Future work in this area need to collect more accurate and complete information about cholesterol level, additionally, more research needs more interaction between cholesterol level and other variable in predicting heart disease.
+
 
 
 
