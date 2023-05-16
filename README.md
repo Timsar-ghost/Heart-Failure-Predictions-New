@@ -31,6 +31,14 @@ and avalibile data nad our uise caarse requirees a clssification model with higt
 
 I chose to use five dofferent model for out progect inclihding logistiv rtegression, random forest, decisionn fores, decision treem, and KNN each with their own set of advantage and disadvantage whith atre outline in a table for comparisino.
 
+**4.1 Logestic Regression**
+
+We applierd a full additive logestic model with all explantory varible, below is the summry, confuision m,ateric and ROC curve of the simple adfitive model.
+Moreover, we had a big chanfe to iluustrea teh regression model with added significatn factor and 2 way interaction evalued on testing using confusion matrix and ROC curve.
+
+
+
+
 
 
 
